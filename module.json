@@ -1,0 +1,20 @@
+{
+    "name": "school-directory",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.directory",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "audit.trail"
+    ],
+    "exposes": [
+        "Plugins\\SchoolDirectory\\API\\Contracts\\SchoolDirectoryContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "The school registry: schools, per-school settings, privacy flags, status guard and the school year. Exposes SchoolScope.",
+    "config": []
+}
